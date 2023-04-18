@@ -1,28 +1,37 @@
 @charset "UTF-8";
+
 * {
   padding: 0;
   margin: 0;
   border: 0;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-:focus, :active {
+:focus,
+:active {
   outline: none;
 }
 
-a:focus, a:active {
+a:focus,
+a:active {
   outline: none;
 }
 
-nav, footer, header, aside {
+nav,
+footer,
+header,
+aside {
   display: block;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
   font-style: 100%;
@@ -33,7 +42,9 @@ html, body {
   -webkit-text-size-adjust: 100%;
 }
 
-input, button, textarea {
+input,
+button,
+textarea {
   font-family: inherit;
 }
 
@@ -50,7 +61,8 @@ button::-moz-focus-inner {
   border: 0;
 }
 
-a, a:visited {
+a,
+a:visited {
   text-decoration: none;
 }
 
@@ -66,7 +78,12 @@ img {
   vertical-align: top;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-style: inherit;
   font-weight: 400;
 }
@@ -85,6 +102,7 @@ nav {
   background-color: #181511;
   overflow: hidden;
 }
+
 nav a {
   text-transform: uppercase;
   float: left;
@@ -96,6 +114,7 @@ nav a {
   font-size: 16px;
   line-height: 24px;
 }
+
 nav .active {
   text-transform: none;
   color: #FFAE2B;
@@ -103,6 +122,7 @@ nav .active {
   line-height: 24px;
   padding: 30px 0px 30px 150px;
 }
+
 nav button {
   font-size: 16px;
   width: 147px;
@@ -116,13 +136,15 @@ nav button {
   background-color: transparent;
   border-radius: 3px;
 }
+
 nav a:hover {
   color: #FFAE2B;
   text-shadow: 1px 0px 10px rgba(255, 255, 255, 0.6);
 }
+
 nav button:hover {
   -webkit-box-shadow: 0px 0px 20px rgba(249, 172, 28, 0.5);
-          box-shadow: 0px 0px 20px rgba(249, 172, 28, 0.5);
+  box-shadow: 0px 0px 20px rgba(249, 172, 28, 0.5);
 }
 
 .image {
@@ -165,11 +187,12 @@ h1 {
   font-weight: bold;
   letter-spacing: 1px;
 }
+
 .butt:hover {
   background-color: #fee41f;
   color: #564b4b;
   -webkit-box-shadow: 0px 0px 20px rgb(240, 255, 32);
-          box-shadow: 0px 0px 20px rgb(240, 255, 32);
+  box-shadow: 0px 0px 20px rgb(240, 255, 32);
 }
 
 .Layouts {
@@ -195,9 +218,11 @@ h1 {
   left: 8%;
   top: 4%;
 }
+
 .border-ex1 div {
-  background-image: url(/images/example1.jpg);
+  background-image: url(/Сайт\ 1/images/example10.jpg);
 }
+
 .border-ex1 div {
   display: block;
   width: 365px;
@@ -205,6 +230,7 @@ h1 {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .border-ex1 p {
   display: inline-block;
   text-transform: uppercase;
@@ -212,9 +238,10 @@ h1 {
   font-size: 16px;
   padding: 20px 0 0 120px;
 }
+
 .border-ex1 div:hover {
   -webkit-box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
-          box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
 }
 
 .border-ex2 {
@@ -225,9 +252,11 @@ h1 {
   left: 9%;
   top: 4%;
 }
+
 .border-ex2 div {
   background-image: url(/images/example2.jpg);
 }
+
 .border-ex2 div {
   display: block;
   width: 365px;
@@ -235,6 +264,7 @@ h1 {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .border-ex2 p {
   display: inline-block;
   text-transform: uppercase;
@@ -242,9 +272,10 @@ h1 {
   font-size: 16px;
   padding: 20px 0 0 120px;
 }
+
 .border-ex2 div:hover {
   -webkit-box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
-          box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
 }
 
 .border-ex3 {
@@ -255,9 +286,11 @@ h1 {
   left: 10%;
   top: 4%;
 }
+
 .border-ex3 div {
   background-image: url(/images/example3.jpg);
 }
+
 .border-ex3 div {
   display: block;
   width: 365px;
@@ -265,6 +298,7 @@ h1 {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .border-ex3 p {
   display: inline-block;
   text-transform: uppercase;
@@ -272,9 +306,10 @@ h1 {
   font-size: 16px;
   padding: 20px 0 0 120px;
 }
+
 .border-ex3 div:hover {
   -webkit-box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
-          box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
 }
 
 .border-ex4 {
@@ -285,9 +320,11 @@ h1 {
   left: 8%;
   top: 8%;
 }
+
 .border-ex4 div {
   background-image: url(/images/example4.jpg);
 }
+
 .border-ex4 div {
   display: block;
   width: 365px;
@@ -295,6 +332,7 @@ h1 {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .border-ex4 p {
   display: inline-block;
   text-transform: uppercase;
@@ -302,9 +340,10 @@ h1 {
   font-size: 16px;
   padding: 20px 0 0 120px;
 }
+
 .border-ex4 div:hover {
   -webkit-box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
-          box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
 }
 
 .border-ex5 {
@@ -315,9 +354,11 @@ h1 {
   left: 9%;
   top: 8%;
 }
+
 .border-ex5 div {
   background-image: url(/images/example5.jpg);
 }
+
 .border-ex5 div {
   display: block;
   width: 365px;
@@ -325,6 +366,7 @@ h1 {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .border-ex5 p {
   display: inline-block;
   text-transform: uppercase;
@@ -332,9 +374,10 @@ h1 {
   font-size: 16px;
   padding: 20px 0 0 120px;
 }
+
 .border-ex5 div:hover {
   -webkit-box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
-          box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
 }
 
 .border-ex6 {
@@ -345,9 +388,11 @@ h1 {
   left: 10%;
   top: 8%;
 }
+
 .border-ex6 div {
   background-image: url(/images/example6.jpg);
 }
+
 .border-ex6 div {
   display: block;
   width: 365px;
@@ -355,6 +400,7 @@ h1 {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .border-ex6 p {
   display: inline-block;
   text-transform: uppercase;
@@ -362,9 +408,10 @@ h1 {
   font-size: 16px;
   padding: 20px 0 0 120px;
 }
+
 .border-ex6 div:hover {
   -webkit-box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
-          box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
 }
 
 .border-ex7 {
@@ -375,9 +422,11 @@ h1 {
   left: 8%;
   top: 12%;
 }
+
 .border-ex7 div {
   background-image: url(/images/example7.jpg);
 }
+
 .border-ex7 div {
   display: block;
   width: 365px;
@@ -385,6 +434,7 @@ h1 {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .border-ex7 p {
   display: inline-block;
   text-transform: uppercase;
@@ -392,9 +442,10 @@ h1 {
   font-size: 16px;
   padding: 20px 0 0 120px;
 }
+
 .border-ex7 div:hover {
   -webkit-box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
-          box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
 }
 
 .border-ex8 {
@@ -405,9 +456,11 @@ h1 {
   left: 9%;
   top: 12%;
 }
+
 .border-ex8 div {
   background-image: url(/images/example8.jpg);
 }
+
 .border-ex8 div {
   display: block;
   width: 365px;
@@ -415,6 +468,7 @@ h1 {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .border-ex8 p {
   display: inline-block;
   text-transform: uppercase;
@@ -422,9 +476,10 @@ h1 {
   font-size: 16px;
   padding: 20px 0 0 120px;
 }
+
 .border-ex8 div:hover {
   -webkit-box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
-          box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
 }
 
 .border-ex9 {
@@ -435,9 +490,11 @@ h1 {
   left: 10%;
   top: 12%;
 }
+
 .border-ex9 div {
   background-image: url(/images/example9.jpg);
 }
+
 .border-ex9 div {
   display: block;
   width: 365px;
@@ -445,6 +502,7 @@ h1 {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .border-ex9 p {
   display: inline-block;
   text-transform: uppercase;
@@ -452,9 +510,10 @@ h1 {
   font-size: 16px;
   padding: 20px 0 0 120px;
 }
+
 .border-ex9 div:hover {
   -webkit-box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
-          box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
 }
 
 .border-ex10 {
@@ -465,9 +524,11 @@ h1 {
   left: 8%;
   top: 16%;
 }
+
 .border-ex10 div {
   background-image: url(/images/example10.jpg);
 }
+
 .border-ex10 div {
   display: block;
   width: 365px;
@@ -475,6 +536,7 @@ h1 {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .border-ex10 p {
   display: inline-block;
   text-transform: uppercase;
@@ -482,9 +544,10 @@ h1 {
   font-size: 16px;
   padding: 20px 0 0 120px;
 }
+
 .border-ex10 div:hover {
   -webkit-box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
-          box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
 }
 
 .border-ex11 {
@@ -495,9 +558,11 @@ h1 {
   left: 9%;
   top: 16%;
 }
+
 .border-ex11 div {
   background-image: url(/images/example11.jpg);
 }
+
 .border-ex11 div {
   display: block;
   width: 365px;
@@ -505,6 +570,7 @@ h1 {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .border-ex11 p {
   display: inline-block;
   text-transform: uppercase;
@@ -512,10 +578,12 @@ h1 {
   font-size: 16px;
   padding: 20px 0 0 120px;
 }
+
 .border-ex11 div:hover {
   -webkit-box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
-          box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
 }
+
 .border-ex11 p {
   padding: 20px 0 0 90px;
 }
@@ -528,9 +596,11 @@ h1 {
   left: 10%;
   top: 16%;
 }
+
 .border-ex12 div {
   background-image: url(/images/example12.jpg);
 }
+
 .border-ex12 div {
   display: block;
   width: 365px;
@@ -538,6 +608,7 @@ h1 {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .border-ex12 p {
   display: inline-block;
   text-transform: uppercase;
@@ -545,10 +616,12 @@ h1 {
   font-size: 16px;
   padding: 20px 0 0 120px;
 }
+
 .border-ex12 div:hover {
   -webkit-box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
-          box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
 }
+
 .border-ex12 p {
   padding: 20px 0 0 150px;
 }
@@ -561,9 +634,11 @@ h1 {
   left: 8%;
   top: 20%;
 }
+
 .border-ex13 div {
   background-image: url(/images/example13.jpg);
 }
+
 .border-ex13 div {
   display: block;
   width: 365px;
@@ -571,6 +646,7 @@ h1 {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .border-ex13 p {
   display: inline-block;
   text-transform: uppercase;
@@ -578,9 +654,10 @@ h1 {
   font-size: 16px;
   padding: 20px 0 0 120px;
 }
+
 .border-ex13 div:hover {
   -webkit-box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
-          box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
 }
 
 .border-ex14 {
@@ -591,9 +668,11 @@ h1 {
   left: 9%;
   top: 20%;
 }
+
 .border-ex14 div {
   background-image: url(/images/example14.jpg);
 }
+
 .border-ex14 div {
   display: block;
   width: 365px;
@@ -601,6 +680,7 @@ h1 {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .border-ex14 p {
   display: inline-block;
   text-transform: uppercase;
@@ -608,10 +688,12 @@ h1 {
   font-size: 16px;
   padding: 20px 0 0 120px;
 }
+
 .border-ex14 div:hover {
   -webkit-box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
-          box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
 }
+
 .border-ex14 p {
   padding: 20px 0 0 150px;
 }
@@ -624,9 +706,11 @@ h1 {
   left: 10%;
   top: 20%;
 }
+
 .border-ex15 div {
   background-image: url(/images/example15.jpg);
 }
+
 .border-ex15 div {
   display: block;
   width: 365px;
@@ -634,6 +718,7 @@ h1 {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .border-ex15 p {
   display: inline-block;
   text-transform: uppercase;
@@ -641,10 +726,12 @@ h1 {
   font-size: 16px;
   padding: 20px 0 0 120px;
 }
+
 .border-ex15 div:hover {
   -webkit-box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
-          box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
 }
+
 .border-ex15 p {
   padding: 20px 0 0 150px;
 }
@@ -657,9 +744,11 @@ h1 {
   left: 8%;
   top: 24%;
 }
+
 .border-ex16 div {
   background-image: url(/images/example16.jpg);
 }
+
 .border-ex16 div {
   display: block;
   width: 365px;
@@ -667,6 +756,7 @@ h1 {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .border-ex16 p {
   display: inline-block;
   text-transform: uppercase;
@@ -674,10 +764,12 @@ h1 {
   font-size: 16px;
   padding: 20px 0 0 120px;
 }
+
 .border-ex16 div:hover {
   -webkit-box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
-          box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
 }
+
 .border-ex16 p {
   padding: 20px 0 0 150px;
 }
@@ -690,9 +782,11 @@ h1 {
   left: 9%;
   top: 24%;
 }
+
 .border-ex17 div {
   background-image: url(/images/example17.jpg);
 }
+
 .border-ex17 div {
   display: block;
   width: 365px;
@@ -700,6 +794,7 @@ h1 {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .border-ex17 p {
   display: inline-block;
   text-transform: uppercase;
@@ -707,9 +802,10 @@ h1 {
   font-size: 16px;
   padding: 20px 0 0 120px;
 }
+
 .border-ex17 div:hover {
   -webkit-box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
-          box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
 }
 
 .border-ex18 {
@@ -720,9 +816,11 @@ h1 {
   left: 10%;
   top: 24%;
 }
+
 .border-ex18 div {
   background-image: url(/images/example18.jpg);
 }
+
 .border-ex18 div {
   display: block;
   width: 365px;
@@ -730,6 +828,7 @@ h1 {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .border-ex18 p {
   display: inline-block;
   text-transform: uppercase;
@@ -737,9 +836,10 @@ h1 {
   font-size: 16px;
   padding: 20px 0 0 120px;
 }
+
 .border-ex18 div:hover {
   -webkit-box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
-          box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
 }
 
 .border-ex19 {
@@ -750,9 +850,11 @@ h1 {
   left: 8%;
   top: 28%;
 }
+
 .border-ex19 div {
   background-image: url(/images/example19.jpg);
 }
+
 .border-ex19 div {
   display: block;
   width: 365px;
@@ -760,6 +862,7 @@ h1 {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .border-ex19 p {
   display: inline-block;
   text-transform: uppercase;
@@ -767,9 +870,10 @@ h1 {
   font-size: 16px;
   padding: 20px 0 0 120px;
 }
+
 .border-ex19 div:hover {
   -webkit-box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
-          box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
 }
 
 .border-ex20 {
@@ -780,9 +884,11 @@ h1 {
   left: 9%;
   top: 28%;
 }
+
 .border-ex20 div {
   background-image: url(/images/example20.jpg);
 }
+
 .border-ex20 div {
   display: block;
   width: 365px;
@@ -790,6 +896,7 @@ h1 {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .border-ex20 p {
   display: inline-block;
   text-transform: uppercase;
@@ -797,9 +904,10 @@ h1 {
   font-size: 16px;
   padding: 20px 0 0 120px;
 }
+
 .border-ex20 div:hover {
   -webkit-box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
-          box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
 }
 
 .border-ex21 {
@@ -810,9 +918,11 @@ h1 {
   left: 10%;
   top: 28%;
 }
+
 .border-ex21 div {
   background-image: url(/images/example21.jpg);
 }
+
 .border-ex21 div {
   display: block;
   width: 365px;
@@ -820,6 +930,7 @@ h1 {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .border-ex21 p {
   display: inline-block;
   text-transform: uppercase;
@@ -827,10 +938,12 @@ h1 {
   font-size: 16px;
   padding: 20px 0 0 120px;
 }
+
 .border-ex21 div:hover {
   -webkit-box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
-          box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.5);
 }
+
 .border-ex21 p {
   padding: 20px 0 0 135px;
 }
@@ -861,22 +974,27 @@ h1 {
 
 .wrapper {
   border: 2px solid #4B4136;
-  display: inline-block; /* чтобы обертка занимала только необходимое пространство */
-  padding: 71px 390px 350px 71px; /* добавляем отступ вокруг элементов */
+  display: inline-block;
+  /* чтобы обертка занимала только необходимое пространство */
+  padding: 71px 390px 350px 71px;
+  /* добавляем отступ вокруг элементов */
   position: relative;
   margin: 60px 0px 0px 120px;
 }
+
 .wrapper .square {
   position: absolute;
   left: 25%;
   top: 20%;
   z-index: -1;
 }
+
 .wrapper .triangle {
   position: absolute;
   top: 25%;
   left: 24%;
 }
+
 .wrapper .design {
   font-size: 40px;
   color: #FFAE2B;
@@ -884,6 +1002,7 @@ h1 {
   top: 40%;
   left: 20%;
 }
+
 .wrapper .info {
   font-size: 16px;
   position: absolute;
@@ -891,6 +1010,7 @@ h1 {
   left: 20%;
   color: #ACA592;
 }
+
 .wrapper .info2 {
   font-size: 16px;
   position: absolute;
@@ -902,23 +1022,28 @@ h1 {
 
 .wrapper1 {
   border: 2px solid #4B4136;
-  display: inline-block; /* чтобы обертка занимала только необходимое пространство */
-  padding: 71px 390px 350px 71px; /* добавляем отступ вокруг элементов */
+  display: inline-block;
+  /* чтобы обертка занимала только необходимое пространство */
+  padding: 71px 390px 350px 71px;
+  /* добавляем отступ вокруг элементов */
   position: relative;
   top: 0%;
   left: -4px;
 }
+
 .wrapper1 .crescent-full {
   position: absolute;
   top: 22%;
   left: 20%;
   z-index: 3;
 }
+
 .wrapper1 .crescent-moon-empty {
   position: absolute;
   top: 25%;
   left: 24%;
 }
+
 .wrapper1 .design1 {
   font-size: 40px;
   color: #FFAE2B;
@@ -926,6 +1051,7 @@ h1 {
   top: 40%;
   left: 20%;
 }
+
 .wrapper1 .info1 {
   font-size: 16px;
   position: absolute;
@@ -933,6 +1059,7 @@ h1 {
   left: 20%;
   color: #ACA592;
 }
+
 .wrapper1 .info21 {
   font-size: 16px;
   position: absolute;
@@ -944,23 +1071,28 @@ h1 {
 
 .wrapper2 {
   border: 2px solid #4B4136;
-  display: inline-block; /* чтобы обертка занимала только необходимое пространство */
-  padding: 71px 390px 350px 71px; /* добавляем отступ вокруг элементов */
+  display: inline-block;
+  /* чтобы обертка занимала только необходимое пространство */
+  padding: 71px 390px 350px 71px;
+  /* добавляем отступ вокруг элементов */
   position: relative;
   top: 0%;
   left: -8px;
 }
+
 .wrapper2 .circle {
   position: absolute;
   top: 18%;
   left: 24%;
   z-index: 3;
 }
+
 .wrapper2 .vector {
   position: absolute;
   top: 25%;
   left: 24%;
 }
+
 .wrapper2 .design2 {
   font-size: 40px;
   color: #FFAE2B;
@@ -968,6 +1100,7 @@ h1 {
   top: 40%;
   left: 20%;
 }
+
 .wrapper2 .info2 {
   font-size: 16px;
   position: absolute;
@@ -975,6 +1108,7 @@ h1 {
   left: 20%;
   color: #ACA592;
 }
+
 .wrapper2 .info23 {
   font-size: 16px;
   position: absolute;
@@ -994,11 +1128,13 @@ h1 {
   position: relative;
   margin: 0 0 0 25px;
 }
+
 .images .svg1 {
   position: absolute;
   top: 5%;
   left: 12.5%;
 }
+
 .images .foto1 {
   background-image: url(/images/foto1.jpg);
   height: 260px;
@@ -1008,6 +1144,7 @@ h1 {
   margin: 50px 0 0 120px;
   display: inline-block;
 }
+
 .images .foto2 {
   background-image: url(/images/foto2.jpg);
   height: 260px;
@@ -1019,16 +1156,19 @@ h1 {
   position: relative;
   left: -8%;
 }
+
 .images .svg2 {
   position: absolute;
   top: 5%;
   left: 27.5%;
 }
+
 .images .big-icon {
   position: absolute;
   top: 100px;
   left: 680px;
 }
+
 .images p {
   color: #FFAE2B;
   font-size: 50px;
@@ -1037,11 +1177,14 @@ h1 {
   top: 12%;
   left: 37.8%;
 }
-.images p:hover, .images path:hover {
+
+.images p:hover,
+.images path:hover {
   color: aqua;
   text-shadow: 0px 0px 20px rgb(19, 196, 250);
   fill: #0bdffb;
 }
+
 .images .foto3 {
   background-image: url(/images/foto3.jpg);
   height: 260px;
@@ -1053,11 +1196,13 @@ h1 {
   position: relative;
   left: 6%;
 }
+
 .images .svg3 {
   position: absolute;
   top: 5%;
   left: 64.3%;
 }
+
 .images .foto4 {
   background-image: url(/images/foto4.jpg);
   height: 260px;
@@ -1069,6 +1214,7 @@ h1 {
   position: relative;
   left: -2%;
 }
+
 .images .svg4 {
   position: absolute;
   top: 5%;
@@ -1098,9 +1244,10 @@ h1 {
   color: #FFAE2B;
   margin: 170px 0px 0 36%;
 }
+
 .input:focus {
   -webkit-box-shadow: 0px 0px 15px #ACA592;
-          box-shadow: 0px 0px 15px #ACA592;
+  box-shadow: 0px 0px 15px #ACA592;
 }
 
 .button {
@@ -1117,9 +1264,11 @@ h1 {
   text-align: center;
   width: 420px;
 }
+
 .police .subs {
   color: #FFAE2B;
 }
+
 .police .data-use {
   color: #FFAE2B;
 }
@@ -1127,6 +1276,7 @@ h1 {
 .social-network {
   position: relative;
 }
+
 .social-network .facebook {
   border: 1px solid #4B4136;
   padding: 17px 20px 13px 20px;
@@ -1134,9 +1284,11 @@ h1 {
   left: 40%;
   margin: 70px 0 0 0;
 }
+
 .social-network .facebook path:hover {
   fill: #3b5998;
 }
+
 .social-network .twitter {
   border: 1px solid #4B4136;
   padding: 18px 16px 14px 18px;
@@ -1144,9 +1296,11 @@ h1 {
   left: 43.6%;
   margin: 70px 0 0 0;
 }
+
 .social-network .twitter path:hover {
   fill: #00acee;
 }
+
 .social-network .instagram {
   border: 1px solid #4B4136;
   padding: 16px 16px 14px 18px;
@@ -1154,9 +1308,11 @@ h1 {
   left: 47.5%;
   margin: 70px 0 0 0;
 }
+
 .social-network .instagram path:hover {
   fill: rgb(232, 236, 22);
 }
+
 .social-network .in {
   border: 1px solid #4B4136;
   padding: 15px 19px;
@@ -1164,6 +1320,7 @@ h1 {
   left: 51.4%;
   margin: 70px 0 0 0;
 }
+
 .social-network .in path:hover {
   fill: #0e76a8;
 }
@@ -1180,6 +1337,7 @@ h1 {
   color: #ACA592;
   padding: 25px 0 0 120px;
 }
+
 .webflow a {
   color: #FFAE2B;
 }
@@ -1189,6 +1347,7 @@ h1 {
   color: #FFAE2B;
   font-size: 16px;
 }
+
 .licenes a {
   color: #FFAE2B;
 }
